@@ -3,7 +3,11 @@
 
     <persistence-unit name="jpabook">
 
-<!--        <class>juv.study.books.jpakt.noentity.Member</class>-->
+        <class>juv.study.books.jpakt.unidirectional.Member</class>
+        <class>juv.study.books.jpakt.unidirectional.Team</class>
+
+        <class>juv.study.books.jpakt.bidirectional.Member</class>
+        <class>juv.study.books.jpakt.bidirectional.Team</class>
 
         <properties>
 
