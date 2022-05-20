@@ -16,6 +16,10 @@
         <class>juv.study.books.jpakt.many2many.mappingentity.Product</class>
         <class>juv.study.books.jpakt.many2many.mappingentity.MemberProduct</class>
 
+        <class>juv.study.books.jpakt.many2many.pk.Member</class>
+        <class>juv.study.books.jpakt.many2many.pk.Product</class>
+        <class>juv.study.books.jpakt.many2many.pk.Order</class>
+
         <properties>
 
             <!-- 필수 속성 -->
