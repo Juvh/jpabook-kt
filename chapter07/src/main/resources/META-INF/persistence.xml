@@ -3,19 +3,19 @@
 
     <persistence-unit name="jpabook">
 
-        <class>juv.study.books.jpakt.joined.Item</class>
-        <class>juv.study.books.jpakt.joined.Album</class>
-        <class>juv.study.books.jpakt.joined.Book</class>
-        <class>juv.study.books.jpakt.joined.Movie</class>
+        <class>juv.study.books.jpakt.inheritance.joined.Item</class>
+        <class>juv.study.books.jpakt.inheritance.joined.Album</class>
+        <class>juv.study.books.jpakt.inheritance.joined.Book</class>
+        <class>juv.study.books.jpakt.inheritance.joined.Movie</class>
 
-        <class>juv.study.books.jpakt.singletable.Item</class>
-        <class>juv.study.books.jpakt.singletable.Album</class>
-        <class>juv.study.books.jpakt.singletable.Book</class>
-        <class>juv.study.books.jpakt.singletable.Movie</class>
+        <class>juv.study.books.jpakt.inheritance.singletable.Item</class>
+        <class>juv.study.books.jpakt.inheritance.singletable.Album</class>
+        <class>juv.study.books.jpakt.inheritance.singletable.Book</class>
+        <class>juv.study.books.jpakt.inheritance.singletable.Movie</class>
 
-        <class>juv.study.books.jpakt.tableperclass.Album</class>
-        <class>juv.study.books.jpakt.tableperclass.Book</class>
-        <class>juv.study.books.jpakt.tableperclass.Movie</class>
+        <class>juv.study.books.jpakt.inheritance.tableperclass.Album</class>
+        <class>juv.study.books.jpakt.inheritance.tableperclass.Book</class>
+        <class>juv.study.books.jpakt.inheritance.tableperclass.Movie</class>
 
         <properties>
 

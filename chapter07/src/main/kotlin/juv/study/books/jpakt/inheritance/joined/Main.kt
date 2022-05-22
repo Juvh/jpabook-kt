@@ -1,4 +1,4 @@
-package juv.study.books.jpakt.joined
+package juv.study.books.jpakt.inheritance.joined
 
 import entityManagerFactory
 

@@ -1,4 +1,4 @@
-package juv.study.books.jpakt.singletable
+package juv.study.books.jpakt.inheritance.tableperclass
 
 import entityManagerFactory
 

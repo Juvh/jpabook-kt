@@ -1,15 +1,14 @@
-package juv.study.books.jpakt.tableperclass
+package juv.study.books.jpakt.inheritance.singletable
 
 import javax.persistence.DiscriminatorValue
 import javax.persistence.Entity
 import javax.persistence.Table
 
-@Entity(name = "TablePerClassMovie")
-@Table(name = "table_per_class_movies")
-class Movie(
+@Entity(name = "SingleTableAlbum")
+@DiscriminatorValue(value = "A")
+class Album(
     name: String,
     price: Int,
-    val director: String,
-    val actor: String
+    val artist: String
 ) : Item(name = name, price = price) {
 }

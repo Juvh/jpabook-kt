@@ -1,12 +1,12 @@
-package juv.study.books.jpakt.singletable
+package juv.study.books.jpakt.inheritance.joined
 
 import javax.persistence.*
 
-@Entity(name = "SingleTableItem")
-@Table(name = "single_table_items")
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@Entity(name = "JoinedItem")
+@Table(name = "joined_items")
+@Inheritance(strategy = InheritanceType.JOINED)
 @DiscriminatorColumn(name = "type")
-abstract class Item(
+class Item(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long? = null,

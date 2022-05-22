@@ -1,4 +1,4 @@
-package juv.study.books.jpakt.tableperclass
+package juv.study.books.jpakt.inheritance.tableperclass
 
 import javax.persistence.*
 

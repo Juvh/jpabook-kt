@@ -1,4 +1,4 @@
-package juv.study.books.jpakt.singletable
+package juv.study.books.jpakt.inheritance.singletable
 
 import javax.persistence.DiscriminatorValue
 import javax.persistence.Entity
