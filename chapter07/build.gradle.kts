@@ -10,9 +10,15 @@ plugins {
 }
 noArg {
     annotation("javax.persistence.Entity")
+    annotation("javax.persistence.Embeddable")
+    annotation("javax.persistence.MappedSuperclass")
+    annotation("NoArg")
 }
 allOpen {
     annotation("javax.persistence.Entity")
+    annotation("javax.persistence.Embeddable")
+    annotation("javax.persistence.MappedSuperclass")
+    annotation("NoArg")
 }
 
 group = "juv.study.books.jpakt.chapter07"

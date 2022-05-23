@@ -17,6 +17,16 @@
         <class>juv.study.books.jpakt.inheritance.tableperclass.Book</class>
         <class>juv.study.books.jpakt.inheritance.tableperclass.Movie</class>
 
+        <class>juv.study.books.jpakt.compositekey.nonidentify.idclass.Parent</class>
+        <class>juv.study.books.jpakt.compositekey.identify.idclass.Child</class>
+
+        <class>juv.study.books.jpakt.compositekey.nonidentify.embeddedid.Parent</class>
+        <class>juv.study.books.jpakt.compositekey.nonidentify.embeddedid.Child</class>
+
+        <class>juv.study.books.jpakt.compositekey.identify.idclass.Parent</class>
+        <class>juv.study.books.jpakt.compositekey.identify.idclass.Child</class>
+        <class>juv.study.books.jpakt.compositekey.identify.idclass.GrandChild</class>
+
         <properties>
 
             <!-- 필수 속성 -->
