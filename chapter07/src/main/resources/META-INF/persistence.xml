@@ -27,6 +27,17 @@
         <class>juv.study.books.jpakt.compositekey.identify.idclass.Child</class>
         <class>juv.study.books.jpakt.compositekey.identify.idclass.GrandChild</class>
 
+        <class>juv.study.books.jpakt.compositekey.identify.embeddedid.Parent</class>
+        <class>juv.study.books.jpakt.compositekey.identify.embeddedid.Child</class>
+        <class>juv.study.books.jpakt.compositekey.identify.embeddedid.GrandChild</class>
+
+        <class>juv.study.books.jpakt.noidentify.parentchild.Parent</class>
+        <class>juv.study.books.jpakt.noidentify.parentchild.Child</class>
+        <class>juv.study.books.jpakt.noidentify.parentchild.GrandChild</class>
+
+        <class>juv.study.books.jpakt.noidentify.onetoone.Board</class>
+        <class>juv.study.books.jpakt.noidentify.onetoone.BoardDetail</class>
+
         <properties>
 
             <!-- 필수 속성 -->
