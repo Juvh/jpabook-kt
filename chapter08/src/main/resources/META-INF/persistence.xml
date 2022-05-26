@@ -6,6 +6,12 @@
         <class>juv.study.books.jpakt.proxy.Member</class>
         <class>juv.study.books.jpakt.proxy.Team</class>
 
+        <class>juv.study.books.jpakt.fetch.eager.Member</class>
+        <class>juv.study.books.jpakt.fetch.eager.Team</class>
+
+        <class>juv.study.books.jpakt.fetch.lazy.Member</class>
+        <class>juv.study.books.jpakt.fetch.lazy.Team</class>
+
         <properties>
 
             <!-- 필수 속성 -->
