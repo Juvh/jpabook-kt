@@ -12,6 +12,24 @@
         <class>juv.study.books.jpakt.fetch.lazy.Member</class>
         <class>juv.study.books.jpakt.fetch.lazy.Team</class>
 
+        <class>juv.study.books.jpakt.cascade.no.Parent</class>
+        <class>juv.study.books.jpakt.cascade.no.Child</class>
+
+        <class>juv.study.books.jpakt.cascade.persist.Parent</class>
+        <class>juv.study.books.jpakt.cascade.persist.Child</class>
+
+        <class>juv.study.books.jpakt.orphan.Parent</class>
+        <class>juv.study.books.jpakt.orphan.Child</class>
+
+        <class>juv.study.books.jpakt.practice.category.Category</class>
+        <class>juv.study.books.jpakt.practice.delivery.Delivery</class>
+        <class>juv.study.books.jpakt.practice.item.Album</class>
+        <class>juv.study.books.jpakt.practice.item.Book</class>
+        <class>juv.study.books.jpakt.practice.item.Movie</class>
+        <class>juv.study.books.jpakt.practice.member.Member</class>
+        <class>juv.study.books.jpakt.practice.order.Order</class>
+        <class>juv.study.books.jpakt.practice.order.OrderItem</class>
+
         <properties>
 
             <!-- 필수 속성 -->
