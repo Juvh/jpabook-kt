@@ -5,6 +5,9 @@
 
         <class>juv.study.books.jpakt.overview.Member</class>
 
+        <class>juv.study.books.jpakt.jpql.Member</class>
+        <class>juv.study.books.jpakt.jpql.Order</class>
+
         <properties>
 
             <!-- 필수 속성 -->
